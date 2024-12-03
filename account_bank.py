@@ -20,7 +20,7 @@ class Saving_Account:
         if self.balance>=amount:
             return 
         else:
-            raise BlanceException(f"You do not have enough balance to withdraw {amount:.2f}")
+            raise BlanceException(f"You do not have enough balance {self.balance:.2f}")
         
         
     def withdraw(self,amount):
@@ -43,7 +43,10 @@ class Saving_Account:
 class Normal_Account(Saving_Account):   # Inheritance
     def get_balance(self):
         return print(f"Current balance of {self.holder_name} is {self.balance + self.balance*0.05:.2f}")
-            
+         
+
+
+
             
    
        

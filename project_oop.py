@@ -19,3 +19,7 @@ print("-------------------------------------------------------------------------
 suji.transfer(500,Siva)
 Siva.get_balance()
 suji.get_balance()
+
+
+suji.withdraw(500)
+suji.withdraw(500)
