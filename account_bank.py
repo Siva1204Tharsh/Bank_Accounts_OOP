@@ -43,6 +43,8 @@ class Saving_Account:
 class Normal_Account(Saving_Account):   # Inheritance
     def get_balance(self):
         return print(f"Current balance of {self.holder_name} is {self.balance + self.balance*0.05:.2f}")
+    
+
          
 
 
